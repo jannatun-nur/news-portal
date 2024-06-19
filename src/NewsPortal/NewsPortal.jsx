@@ -15,7 +15,7 @@ const NewsPortal = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 md:gap-6 lg:gap-10 px-4 my-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 md:gap-6 lg:gap-10 my-2">
                 {
                    news.map((allnews, index) => <NewsCard key={index} allnews={allnews}></NewsCard>)
                 }
