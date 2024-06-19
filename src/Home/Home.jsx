@@ -1,9 +1,10 @@
+import NewsPortal from "../NewsPortal/NewsPortal";
 
 
 const Home = () => {
     return (
         <div>
-           ok bye 
+           <NewsPortal/>
         </div>
     );
 };
