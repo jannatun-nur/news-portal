@@ -17,12 +17,13 @@ const NewsDetails = () => {
   if (!newsDetail) return <div>Loading...</div>;
 
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4">{newsDetail.title}</h1>
+    <div className="p-4 bg-white">
+      <h1 className="text-3xl font-bold mb-4 text-gray-800 py-3">{newsDetail.title}</h1>
       <img src={newsDetail.urlToImage} alt="news" className="w-full mb-4" />
-      <p className="text-xl">{newsDetail.description}</p>
-      <p>{newsDetail.content}</p>
-      <a href={newsDetail.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+      <p className="text-3xl font-bold mb-4 text-gray-800">{newsDetail.author}</p>
+      <p className="text-xl text-gray-800 font-semibold">{newsDetail.description}</p>
+      <p className="text-xl text-gray-800 py-4">{newsDetail.content}</p>
+      <a href={newsDetail.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline text-xl lg:text-2xl font-semibold">
         Read full article
       </a>
     </div>
