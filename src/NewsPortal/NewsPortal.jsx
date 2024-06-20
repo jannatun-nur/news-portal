@@ -6,18 +6,18 @@ const NewsPortal = () => {
     const [news, setNews] = useState([]);
 
     useEffect(() => {
-        fetch('https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=3aef59215c354142be701ad459c802ad')
+        fetch('https://6673a66f75872d0e0a931857.mockapi.io/heathcare')
        .then(res => res.json())
-       .then(data => setNews(data.articles));
+       .then(data => setNews(data));
     }, []);
 
-
+const newsData = news.slice(0,10)
 
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 md:gap-6 lg:gap-10 my-2">
                 {
-                   news.map((allnews, index) => <NewsCard key={index} allnews={allnews}></NewsCard>)
+                   newsData?.map((allnews, index) => <NewsCard key={index} allnews={allnews}></NewsCard>)
                 }
             </div>
         </div>

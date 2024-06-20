@@ -6,18 +6,20 @@ const NewsDetails = () => {
   const [newsDetail, setNewsDetail] = useState(null);
 
   useEffect(() => {
-    fetch(
-      "https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=3aef59215c354142be701ad459c802ad"
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        const article = data.articles.find(
-          (article) => article.title === decodeURIComponent(title)
-        );
-        setNewsDetail(article);
-      });
-  }, [title]);
-
+    fetch("https://6673a66f75872d0e0a931857.mockapi.io/heathcare")
+    .then( res => res.json())
+    .then((data) => {
+      const singleData = data.find(
+        (item) => item.title === decodeURIComponent(title)
+      );
+      setNewsDetail(singleData || {});
+      
+    })
+    .catch((error) => {
+      console.error("Error fetching data:", error);
+      
+    });
+}, [title]);
   if (!newsDetail)
     return (
       <div className="text-xl lg:text-2xl text-blue-600 animate-bounce text-center mt-10">

@@ -21,7 +21,7 @@ const Health = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 md:gap-6 lg:gap-10 my-2">
                 {
-                     sliceHealth.map( healths =><HealthCard key={healths} healths={healths}></HealthCard>)
+                     sliceHealth?.map( healths =><HealthCard key={healths} healths={healths}></HealthCard>)
                 }
             </div>
         </div>

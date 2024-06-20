@@ -7,11 +7,11 @@ const DailyUpdateDetail = () => {
 
   useEffect(() => {
     fetch(
-      "https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=3aef59215c354142be701ad459c802ad"
+      "https://6673a66f75872d0e0a931857.mockapi.io/heathcare"
     )
       .then((res) => res.json())
       .then((data) => {
-        const article = data.articles.find(
+        const article = data.find(
           (article) => article.title === decodeURIComponent(title)
         );
         setNewsDetail(article);
