@@ -24,7 +24,7 @@ const Slider = () => {
             <h2 className="card-title text-4xl text-white font-semibold">E-commerce</h2>
              <p className="text-white">Ecommerce is the electronic buying and selling of goods and services, usually via the internet. Businesses can build their own ecommerce website, set up an ......</p>
             <div className="card-actions justify-end">
-              <Link to='/e-commerce'>
+              <Link to='/ecommerce'>
               <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button>
               </Link>
             </div>

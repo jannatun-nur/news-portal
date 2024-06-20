@@ -27,7 +27,7 @@ const NewsDetails = () => {
 
   return (
     <div className="p-4 bg-white">
-      <h1 className="text-3xl font-bold mb-4 text-gray-800 py-3">
+      <h1 className="text-xl lg:text-3xl font-bold mb-4 text-gray-800 py-3">
         {newsDetail.title}
       </h1>
       <img src={newsDetail.urlToImage} alt="news" className="w-full mb-4" />

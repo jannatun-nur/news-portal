@@ -14,6 +14,8 @@ import Food from './Food/Food';
 import FoodDetails from './Food/FoodDetails';
 import Health from './Health/Health';
 import HealthDetail from './Health/HealthDetail';
+import Ecom from './E-commerce/Ecom';
+import EcomDetail from './E-commerce/EcomDetail';
 
 
 const router = createBrowserRouter([
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
       {
         path:'/health/:title',
         element:<HealthDetail/>
+      },
+      {
+        path:'/ecommerce',
+        element:<Ecom/>
+      },
+      {
+        path:'/ecommerce/:title',
+        element:<EcomDetail/>
       }
     ]
   },

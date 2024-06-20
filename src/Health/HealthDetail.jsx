@@ -32,7 +32,7 @@ const HealthDetail = () => {
 
   return (
     <div className="p-4 bg-white">
-      <h1 className="text-3xl font-bold mb-4 text-gray-800 py-3">
+      <h1 className="text-xl lg:text-3xl font-bold mb-4 text-gray-800 py-3">
         {healthDetail.title}
       </h1>
       <img src={healthDetail.image} alt="news" className="w-full lg:h-[500px] mb-4" />
