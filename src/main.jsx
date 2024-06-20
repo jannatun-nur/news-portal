@@ -12,6 +12,8 @@ import DailyUpdate from './DailyUpdate/DailyUpdate';
 import DailyUpdateDetail from './DailyUpdate/DailyUpdateDetail';
 import Food from './Food/Food';
 import FoodDetails from './Food/FoodDetails';
+import Health from './Health/Health';
+import HealthDetail from './Health/HealthDetail';
 
 
 const router = createBrowserRouter([
@@ -40,8 +42,16 @@ const router = createBrowserRouter([
         element:<Food/>
       },
       {
-        path:'/food/:id',
+        path:'/food/:idCategory',
         element:<FoodDetails/>
+      },
+      {
+        path:'/health',
+        element:<Health/>
+      },
+      {
+        path:'/health/:title',
+        element:<HealthDetail/>
       }
     ]
   },

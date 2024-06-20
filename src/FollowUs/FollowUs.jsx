@@ -30,7 +30,7 @@ const FollowUs = () => {
 
         {/* right sec */}
         <section className=" lg:w-4/12 my-5">
-          <p className="lg:text-4xl text-2xl text-gray-800 my-10" >Follow Us on</p>
+          <p className="lg:text-4xl text-2xl text-gray-800 lg:my-10" >Follow Us on</p>
           <p className="text-white text-xl lg:text-4xl py-2 bg-blue-600 px-4 flex gap-3 my-2">
             <FaFacebook />
             Facebook

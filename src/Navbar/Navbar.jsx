@@ -8,8 +8,8 @@ const Navbar = () => {
           <Link to='/'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Home</li></Link>
           <Link to='/update'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Daily Update</li></Link>
           <Link to='/food'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Food</li></Link>
-          <Link to='/life'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Life</li></Link>
-          <Link to='/sport'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Sports</li></Link>
+          <Link to='/health'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Health</li></Link>
+          <Link to='/ecommerce'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>E-Commerce</li></Link>
   </>
   return (
     <div>

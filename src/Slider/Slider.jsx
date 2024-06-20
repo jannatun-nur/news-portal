@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 import daily from '../../public/update.png' 
 import ecomm from '../../public/ecmm.png'
 import food from '../../public/food.png'
-import sport from '../../public/sport.png'
+import health from '../../public/health.png'
 import { Link } from "react-router-dom";
 const Slider = () => {
   return (
@@ -82,16 +82,18 @@ const Slider = () => {
         <div className="card w-96 bg-base-100  image-full ml-10">
           <figure>
             <img
-              src={sport}
-              alt="sports"
+              src={health}
+              alt="img"
               className=" w-96"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-4xl text-white font-semibold">Sports</h2>
-             <p className="text-white">Sport covers a range of activities performed within a set of rules and undertaken as part of leisure or competition. Sporting activities involve physical activity carried out by teams or individuals and...</p>
+            <h2 className="card-title text-4xl text-white font-semibold">Health</h2>
+             <p className="text-white">Health is a multifaceted concept that encompasses physical, mental, and social well-being. It is not merely the absence of disease or infirmity but a state of complete harmony within the body and mind. </p>
             <div className="card-actions justify-end">
+              <Link to='/health'>
               <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button>
+              </Link>
             </div>
           </div>
         </div>
