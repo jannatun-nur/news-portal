@@ -33,7 +33,7 @@ const DailyUpdateDetail = () => {
       <img
         src={newsDeatil.urlToImage}
         alt="news"
-        className="w-full h-[400px] mb-4"
+        className="w-full lg:h-[400px] mb-4"
       />
       <p className="text-3xl font-bold mb-4 text-gray-800">
         {newsDeatil.author}
