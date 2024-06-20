@@ -1,32 +1,39 @@
 import Marquee from "react-fast-marquee";
 
-import life from '../../public/life.png' 
-import fashion from '../../public/fa.png'
+import daily from '../../public/update.png' 
+import ecomm from '../../public/ecmm.png'
 import food from '../../public/food.png'
 import sport from '../../public/sport.png'
+import { Link } from "react-router-dom";
 const Slider = () => {
   return (
     <div className="my-5">
        <p className="py-14 lg:text-4xl text-2xl text-blue-700 text-center font-bold">Categories For You</p>
 
       <Marquee>
-        {/* fashion */}
+        {/* e-commerce */}
         <div className="card w-96 bg-base-100 image-full ml-10">
           <figure>
             <img
-              src={fashion}
-              alt="fashion"
+              src={ecomm}
+              alt="image"
               className=" w-96"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-4xl text-white font-semibold">Fashion</h2>
-             <p className="text-white">Fashion is a term used interchangeably to describe the creation of clothing, footwear, accessories, cosmetics, and jewellery of different cultural aesthetics and their mix and match into outfits.</p>
+            <h2 className="card-title text-4xl text-white font-semibold">E-commerce</h2>
+             <p className="text-white">Ecommerce is the electronic buying and selling of goods and services, usually via the internet. Businesses can build their own ecommerce website, set up an ......</p>
             <div className="card-actions justify-end">
+              <Link to='/e-commerce'>
               <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button>
+              </Link>
             </div>
           </div>
         </div>
+
+
+
+
 
         {/* food */}
         <div className="card w-96 bg-base-100 image-full ml-10">
@@ -41,30 +48,37 @@ const Slider = () => {
             <h2 className="card-title text-4xl text-white font-semibold">Food</h2>
              <p className="text-white">Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins.</p>
             <div className="card-actions justify-end">
-              <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button>
+            <Link to='/food'>
+              <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button> 
+              </Link>
             </div>
           </div>
         </div>
 
-        {/*life */}
+
+        {/*daily update*/}
         <div className="card w-96 bg-base-100 image-full ml-10">
           <figure>
             <img
-              src={life}
-              alt="lifestyle"
+              src={daily}
+              alt="image"
               className=" w-96"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-4xl text-white font-semibolde">Life Style</h2>
-             <p className="text-white">Lifestyle is the interests, opinions, behaviours, and behavioural orientations of an individual, group, or culture. The term was introduced by Austrian psychologist Alfred Adler in his 1929 book........</p>
+            <h2 className="card-title text-4xl text-white font-semibolde">Daily Update</h2>
+             <p className="text-white"> A status update is a management document outlining a project's progress. The status update summarizes the project's current status since the last update......</p>
             <div className="card-actions justify-end">
-              <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button>
+            <Link to='/update'>
+              <button className="px-4 py-1 rounded-lg text-blue-700 bg-white text-xl font-bold">Learn more</button> 
+              </Link>
             </div>
           </div>
         </div>
+
+
         
-        {/*sports*/}
+        {/*Health Care*/}
         <div className="card w-96 bg-base-100  image-full ml-10">
           <figure>
             <img

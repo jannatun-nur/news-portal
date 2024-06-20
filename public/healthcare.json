@@ -1,0 +1,60 @@
+
+    [
+        {
+          "name": "COVID-19",
+          "title": "Increasing new fear and demeage. Speialist has declard that it has",
+          "image": "https://i.ibb.co/tzqJ86H/covid.png",
+          "description": "COVID-19, caused by the novel coronavirus SARS-CoV-2, emerged in late 2019 and became a global pandemic in early 2020. It is primarily transmitted through respiratory droplets and close contact. Symptoms range from mild to severe, including fever, cough, and difficulty breathing. Older adults and individuals with underlying medical conditions are at higher risk of severe illness and death. Prevention measures include wearing masks, practicing physical distancing, frequent handwashing, and vaccination. Vaccines have been developed and authorized for emergency use to control the spread of COVID-19."
+        },
+        {
+          "name": "Chickenpox",
+          "title": "Be aware about what is happing arround you. Be safe and stay safe",
+          "image": "https://i.ibb.co/bJWrnFh/chick.png",
+          "description": "Chickenpox is a highly contagious viral infection caused by the varicella-zoster virus. It causes an itchy rash with small, fluid-filled blisters. Symptoms also include fever and general discomfort. Complications can occur, particularly in adults and immunocompromised individuals, such as pneumonia or bacterial infections of the skin. Vaccination is available to prevent chickenpox."
+        },
+        {
+          "name": "Common Cold",
+        "description": "The common cold is a viral infection of the upper respiratory tract. It is caused by different viruses, most commonly rhinoviruses. Symptoms include sneezing, runny or stuffy nose, sore throat, cough, and mild fever. The common cold is usually self-limiting and resolves within a week. Treatment focuses on relieving symptoms.",
+          "title": "Winter has became increased unstopable day by day",
+          "image": "https://i.ibb.co/6nKY47t/cold.png"
+          
+        },
+        {
+          "name": "HIV/AIDS",
+        "description": "HIV (Human Immunodeficiency Virus) attacks the immune system and can lead to AIDS (Acquired Immunodeficiency Syndrome). HIV is transmitted through contact with infected bodily fluids, most commonly through unprotected sexual contact or sharing needles. AIDS is the final stage of HIV infection, characterized by a severely weakened immune system and susceptibility to opportunistic infections and cancers. Antiretroviral therapy (ART) can control HIV infection and prevent progression to AIDS.",
+          "title": "HIV/AIDS is a most harmfulDiseases. Research find out that it has",
+          "image": "https://i.ibb.co/HX9fV8S/hiv.png"
+          
+        },
+        {
+          "name": "Influenza (Flu)",
+          "title": "Understanding Influenza (Flu)",
+            "description": "Influenza, commonly known as the flu, is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness and, in some cases, can lead to complications such as pneumonia. Symptoms include fever, chills, cough, sore throat, body aches, and fatigue. Seasonal flu vaccines are available to prevent influenza.",
+          "image": "https://i.ibb.co/92b2vbb/flu.png"
+          
+        },
+        {
+          "name": "Measles",
+    "description": "Measles is a highly contagious viral infection caused by the measles virus. It spreads through respiratory droplets from coughing and sneezing. Symptoms include fever, cough, runny nose, red eyes, and a characteristic rash that starts on the face and spreads to the rest of the body. Complications can include pneumonia and encephalitis. Vaccination with the MMR (measles, mumps, rubella) vaccine is highly effective in preventing measles.",
+          "title": "Exploring Measles: Symptoms, Vaccination, and Preventiongists",
+          "image": "https://i.ibb.co/XxdKbzb/mal.png"
+          
+        },
+        {
+         "name": "Meningitis",
+    "description": "Meningitis is an inflammation of the membranes (meninges) surrounding the brain and spinal cord. It can be caused by viral, bacterial, or fungal infections. Symptoms include sudden onset of fever, headache, stiff neck, sensitivity to light, and confusion. Bacterial meningitis can be life-threatening and requires urgent medical treatment with antibiotics. Vaccination is available to prevent certain types of bacterial meningitis.",
+          "title": "Insight into Meningitis: Causes, Symptoms, and Treatment",
+          "image": "https://i.ibb.co/Y2g0T9G/min.png"
+          
+        },
+        {
+            "name": "Monkeypox",
+            "description": "Monkeypox is a rare viral zoonotic disease that occurs primarily in remote parts of Central and West Africa. It is caused by the monkeypox virus, belonging to the same family of viruses as smallpox. Symptoms include fever, headache, muscle aches, swollen lymph nodes, and skin rash. The disease is usually self-limiting, but severe cases can occur, especially in immunocompromised individuals.",
+          
+          "title": "Monkeypox Uncovered: Symptoms and Management",
+          "image": "https://i.ibb.co/1q8bL0h/money.png"
+          
+        }
+       
+      ]
+      

@@ -6,9 +6,9 @@ const Navbar = () => {
 
   const links = <>
           <Link to='/'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Home</li></Link>
-          <Link to='/lifestyle'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Life Style</li></Link>
+          <Link to='/update'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Daily Update</li></Link>
           <Link to='/food'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Food</li></Link>
-          <Link to='/fashion'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Fashion</li></Link>
+          <Link to='/life'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Life</li></Link>
           <Link to='/sport'><li className='hover:bg-white hover:text-blue-500 rounded-2xl px-4'>Sports</li></Link>
   </>
   return (

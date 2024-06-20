@@ -10,11 +10,11 @@ const NewsCard = ({ allnews }) => {
   <figure><img className="w-full h-[140px]" src={urlToImage} alt="image" /></figure>
   <div className="card-body">
     <h2 className="card-title text-gray-800">{ title }</h2>
-    <p className="text-gray-800 lg:text-2xl"> {description} </p>
+    <p className="text-gray-800 lg:text-2xl font-semibold"> {description} </p>
     <div className="card-actions justify-end">
 
     <Link to={`/news/${encodeURIComponent(title)}`}>
-              <button className="bg-gradient-to-r from-indigo-800 via-blue-600 to-blue-500 px-4 py-2 rounded-lg text-white text-xl font-semibold">Read More</button>
+              <button className="bg-gradient-to-r from-indigo-800 via-blue-600 to-blue-500 px-4 py-2 rounded-lg text-white lg:text-xl ">Read More</button>
             </Link>
 
     </div>

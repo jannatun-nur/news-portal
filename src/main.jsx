@@ -8,8 +8,10 @@ import {
 import Root from './Root/Root';
 import Home from './Home/Home';
 import NewsDetails from './NewsPortal/NewsDetails';
-import FashionDetails from './Fashion/FashionDetails';
-import Fashion from './Fashion/Fashion';
+import DailyUpdate from './DailyUpdate/DailyUpdate';
+import DailyUpdateDetail from './DailyUpdate/DailyUpdateDetail';
+import Food from './Food/Food';
+import FoodDetails from './Food/FoodDetails';
 
 
 const router = createBrowserRouter([
@@ -26,12 +28,20 @@ const router = createBrowserRouter([
         element:<NewsDetails/>
       },
       {
-        path:'/fashion',
-        element:<Fashion/>
+        path:'/update',
+        element:<DailyUpdate/>
       },
       {
-        path:'/fashion/:title',
-        element:<FashionDetails/>
+        path:'/update/:title',
+        element:<DailyUpdateDetail/>
+      },
+      {
+        path:'/food',
+        element:<Food/>
+      },
+      {
+        path:'/food/:id',
+        element:<FoodDetails/>
       }
     ]
   },
